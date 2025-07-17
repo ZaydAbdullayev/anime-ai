@@ -185,18 +185,6 @@
   touch-action: manipulation;
 }
 
-.button-89:hover,
-.button-89:focus-visible{
-  --_p: 0px;
-  outline-color: var(--color);
-  outline-offset: .05em;
-}
-
-.button-89:active {
-  background: var(--color);
-  color: #fff;
-}
-
 .coming-soon {
   margin-top: 4rem;
   padding: 2rem 1rem;
