@@ -34,7 +34,7 @@ export const agentCategories = [
             {
                 name: "PitchSenpai",
                 desc: "Need to write an email? That’s my thing.",
-                avatar: "https://static.vecteezy.com/ti/vettori-gratis/p1/11483944-anime-ragazzo-ritratto-gratuito-vettoriale.jpg",
+                avatar: "https://img1.picmix.com/output/stamp/normal/1/6/9/8/2518961_fa08a.png",
                 greet: "Need an email? My keyboard is ready."
             },
             {
@@ -51,19 +51,19 @@ export const agentCategories = [
             {
                 name: "NekoNekoGPT",
                 desc: "Just vibes, memes, and a bit of chaos.",
-                avatar: "https://static.vecteezy.com/ti/vettori-gratis/p1/11483944-anime-ragazzo-ritratto-gratuito-vettoriale.jpg",
+                avatar: "https://image.winudf.com/v2/image/Y29tLmFuaW1lLmdpcmxzX3NjcmVlbnNob3RzXzBfZmRjZjFmMGY/screen-0.jpg?fakeurl=1&type=.jpg",
                 greet: "Nyaa~ Ready for a little chaos?"
             },
             {
                 name: "LoFiYumi",
                 desc: "Relax. I’ll set the mood.",
-                avatar: "https://static.vecteezy.com/ti/vettori-gratis/p1/11483944-anime-ragazzo-ritratto-gratuito-vettoriale.jpg",
+                avatar: "https://i.pinimg.com/736x/87/48/e5/8748e55bcc6d65fb1c5ecd8a55a21974.jpg",
                 greet: "Lo-fi vibes activated. Time to chill."
             },
             {
                 name: "OtakuLore",
                 desc: "Anime or manga? I know them all.",
-                avatar: "https://static.vecteezy.com/ti/vettori-gratis/p1/11483944-anime-ragazzo-ritratto-gratuito-vettoriale.jpg",
+                avatar: "https://i.pinimg.com/originals/24/ca/9e/24ca9e5230952fbeb22c7ced67b4e8c7.jpg",
                 greet: "From Naruto to Berserk... My knowledge is yours."
             }
         ]

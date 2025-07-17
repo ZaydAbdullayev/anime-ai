@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./home.scss";
 import { agentCategories } from "./context/data";
 import { Modal } from "./components/templates/modal";
+import { RiTwitterXFill } from "react-icons/ri";
 
 export function App() {
   const [selectedAgent, setSelectedAgent] = useState(null);
@@ -45,14 +46,14 @@ export function App() {
       desc: "Romantic Simulation Prototype",
       style: "pink-glow",
       avatar:
-        "https://static.vecteezy.com/system/resources/previews/011/485/187/non_2x/anime-girl-avatar-free-vector.jpg",
+        "https://wallpapers.com/images/hd/black-anime-pictures-lw7w4o0w2oyxn52w.jpg",
     },
     {
       name: "??? (GlitchBoy-404)",
       desc: "Agent corrupted from another layer of reality.",
       style: "glitched",
       avatar:
-        "https://static.vecteezy.com/system/resources/previews/011/485/187/non_2x/anime-girl-avatar-free-vector.jpg",
+        "https://i.pinimg.com/736x/79/2c/38/792c380a4c7aa8bac96f59045d38ade8.jpg",
     },
   ];
 
@@ -60,10 +61,15 @@ export function App() {
     <div className="app">
       <h1 className="gradient-title">🌸 AI Anime Agents 🌸</h1>
       <p className="subtitle">Choose one and get greeted in style...</p>
+      <div className="w100 df aic jcc">
+        <button className="df aic gap-15 button-55">
+          Follow Us On <RiTwitterXFill />
+        </button>
+      </div>
       <div className="columns">
         {agentCategories.map((category) => (
           <div className={getColumnClass(category.title)} key={category.title}>
-            <h2 className="category-title">{category.title}</h2>
+            <h2 className="category-title button-89">{category.title}</h2>
             {category.agents.map((agent) => (
               <div
                 key={agent.name}
@@ -98,20 +104,6 @@ export function App() {
       </div>
 
       <Modal agent={selectedAgent} onClose={() => setSelectedAgent(null)} />
-
-      {/* Footer  */}
-      <footer className="footer">
-        <p>AI Anime Agents © 2023</p>
-        <small>
-          AI Anime Agents is a fictional project created for fun and does not
-          represent real AI capabilities.
-        </small>
-        <div className="div">
-          <button href="https://x.com" target="_blank" rel="noopener noreferrer">
-            Follow me on X
-          </button>
-        </div>
-      </footer>
     </div>
   );
 }
